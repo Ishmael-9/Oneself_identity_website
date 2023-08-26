@@ -1,33 +1,33 @@
+/* 26AUG23 newly edited */
+
 html {
     
   background: url("1689009563675.jpg") no-repeat                   center center fixed; 
-  
-  
   -webkit-background-size: cover;    -moz-background-size: cover; 
   -o-background-size: cover; 
   background-size: cover;
   
-  
   }
   
-  
-  
-
 
 *{
     font-family    : monospace;
     font-size    : 10px;
-    color    : white;
+    color    : black;
 }
+
+
+
+
+
 
 /*
 responsiveness 
 
 */
 
-@media (min-width : 300px){
-    /*some styles*/
-}
+
+
 
 
 body{
@@ -39,12 +39,12 @@ body{
   		
   		now creating background animation necessary 
   		*/
-  		  		
-  		
+  		  			
 }
 
 
-}
+
+
 
 
 
@@ -60,6 +60,9 @@ header .anime-box{
 
 
 */
+
+
+
 
 
 
@@ -88,10 +91,12 @@ animation-duration : infinite;
 
 
 
+
+/*
 header{
     
     color    : coral;
-    line-height    : 3em;
+    line-height    : ;
     
     /*width    : 9px;
     height     : 9px;
@@ -105,37 +110,50 @@ header{
     letter-spacing    : 15px;*/
 }
 
-header h1{
+
+*/
+
+
+
+
+
+
+
+
+header p{
     font-weight    : 900px;
 }
 
+#header-animation{
+    padding : 30px;
+    border    : none;
+    animation-name: alphabets;
+     animation-duration: infinite;
+     }
+
+
+
+
 
 /*
-.anime-box{
-    background-color    : purple;
-    
-}
-The element to apply the animation to 
-*/
+The aforementioned element to apply the animation to 
+
+here I'm trying to make the header's background : animated text ...still have to debug
  
  
-.anime-box{
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: myName;
-  animation-duration: 4s;
-  
-}
+*/ 
 
-@keyframes myName{
+
+
+@keyframes alphabets{
     
-  0%   {background-color: red}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
-
+0%   {background :  url("20230820_092127_IS.jpg");}
+  20%  {background :  url("Notes_230820_084953_H.jpg");}
+  40%  {background :  url("20230820_092316_ma.jpg  ");}
+  60% {background :  url("Notes_230820_085910_E.jpg ");}
+  80%{background :  url("Notes_230820_090029_L.jpg   "); }
+  100%{background :  url(" Notes_230820_085454_M.jpg  ");  }
+  }
 
 
 
@@ -148,7 +166,7 @@ The element to apply the animation to
 
 
 nav{
-  background-color    : whitesmoke;
+  background-color    : black;
   margin              :0px;
   padding             :0px;
 }
@@ -182,15 +200,8 @@ h2{
     
 }
 
-p{
-    font-weight    : 1;
-    line-height    : 1;
-    max-width    : 600px;
-}
 
-h2, a{
-    max-width    : 60%;
-}
+
 
 .ishmael{
     style    : none;
@@ -200,11 +211,11 @@ h2, a{
 
 div{
     height    : 100vh;
-    max-width    : 100%;
+    
     padding    : 0px 60px;
-    margin    : 0px 0px 60px 0px;
+    
     display    : inline-block;
-   /* background    : linear-gradient(coral,white,pink);*/
+   
     border-radius    : 3px;
 }
 
